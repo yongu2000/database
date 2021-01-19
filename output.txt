@@ -1,0 +1,223 @@
+Script started on Fri 30 Oct 2020 12:22:04 PM HST
+]0;yongu200@uhx02:~/project1[?1034huhx02:/home/y/yongu200/project1% ./project1
+<User-Interface>
+
+<Choose a menu option>
+-------------------------------------
+<add> : <Add a new record in the database>
+<printall> : <Print all records in the database>
+<find> : <Find record(s) with a specified account #>
+<delete> : <Delete existing record(s) from the database using the account # as a key>
+<quit> : <Quit the program>
+-------------------------------------
+type the corresponding option and hit the enter
+a
+Type your account number
+100
+Type your name
+John Smith
+Type your address
+Please Enter Address and Enter '#' When End
+1111 Dole St.,
+Honolulu HI 96822#
+The new record is added
+<Choose a menu option>
+-------------------------------------
+<add> : <Add a new record in the database>
+<printall> : <Print all records in the database>
+<find> : <Find record(s) with a specified account #>
+<delete> : <Delete existing record(s) from the database using the account # as a key>
+<quit> : <Quit the program>
+-------------------------------------
+type the corresponding option and hit the enter
+add
+Type your account number
+50
+Type your name
+Yong U Cho
+Type your address
+Please Enter Address and Enter '#' When End
+1226 Alexander St.#
+
+<Choose a menu option>
+-------------------------------------
+<add> : <Add a new record in the database>
+<printall> : <Print all records in the database>
+<find> : <Find record(s) with a specified account #>
+<delete> : <Delete existing record(s) from the database using the account # as a key>
+<quit> : <Quit the program>
+-------------------------------------
+type the corresponding option and hit the enter
+ad
+Type your account number
+50
+Type your name
+Tetsy uya Idota
+Type your address
+Please Enter Address and Enter '#' When End
+1-1 Chiyoda#
+
+<Choose a menu option>
+-------------------------------------
+<add> : <Add a new record in the database>
+<printall> : <Print all records in the database>
+<find> : <Find record(s) with a specified account #>
+<delete> : <Delete existing record(s) from the database using the account # as a key>
+<quit> : <Quit the program>
+-------------------------------------
+type the corresponding option and hit the enter
+pr
+
+Account #: 100
+Name: John Smith
+Address: 1111 Dole St.,
+Honolulu HI 96822#
+
+
+Account #: 50
+Name: Yong U Cho
+Address: 1226 Alexander St.#
+
+
+Account #: 50
+Name: Tetsuya Idota
+Address: 1-1 Chiyoda#
+
+
+<Choose a menu option>
+-------------------------------------
+<add> : <Add a new record in the database>
+<printall> : <Print all records in the database>
+<find> : <Find record(s) with a specified account #>
+<delete> : <Delete existing record(s) from the database using the account # as a key>
+<quit> : <Quit the program>
+-------------------------------------
+type the corresponding option and hit the enter
+find
+Type your account number
+100
+Account #: 100
+Name: John Smith
+Address: 1111 Dole St.,
+Honolulu HI 96822#
+
+<Choose a menu option>
+-------------------------------------
+<add> : <Add a new record in the database>
+<printall> : <Print all records in the database>
+<find> : <Find record(s) with a specified account #>
+<delete> : <Delete existing record(s) from the database using the account # as a key>
+<quit> : <Quit the program>
+-------------------------------------
+type the corresponding option and hit the enter
+f
+Type your account number
+50
+Account #: 50
+Name: Yong U Cho
+Address: 1226 Alexander St.#
+Account #: 50
+Name: Tetsuya Idota
+Address: 1-1 Chiyoda#
+
+<Choose a menu option>
+-------------------------------------
+<add> : <Add a new record in the database>
+<printall> : <Print all records in the database>
+<find> : <Find record(s) with a specified account #>
+<delete> : <Delete existing record(s) from the database using the account # as a key>
+<quit> : <Quit the program>
+-------------------------------------
+type the corresponding option and hit the enter
+delete
+Type your account number
+100
+record for following address has been deleted
+
+<Choose a menu option>
+-------------------------------------
+<add> : <Add a new record in the database>
+<printall> : <Print all records in the database>
+<find> : <Find record(s) with a specified account #>
+<delete> : <Delete existing record(s) from the database using the account # as a key>
+<quit> : <Quit the program>
+-------------------------------------
+type the corresponding option and hit the enter
+de
+Type your account number
+50
+record for following address has been deleted
+
+<Choose a menu option>
+-------------------------------------
+<add> : <Add a new record in the database>
+<printall> : <Print all records in the database>
+<find> : <Find record(s) with a specified account #>
+<delete> : <Delete existing record(s) from the database using the account # as a key>
+<quit> : <Quit the program>
+-------------------------------------
+type the corresponding option and hit the enter
+pr
+The record is empty
+<Choose a menu option>
+-------------------------------------
+<add> : <Add a new record in the database>
+<printall> : <Print all records in the database>
+<find> : <Find record(s) with a specified account #>
+<delete> : <Delete existing record(s) from the database using the account # as a key>
+<quit> : <Quit the program>
+-------------------------------------
+type the corresponding option and hit the enter
+add
+Type your account number
+1000
+Type your name
+Ravi Narayan
+Type your address
+Please Enter Address and Enter '#' When End
+1680 East-West Rd.#
+The new record is added
+<Choose a menu option>
+-------------------------------------
+<add> : <Add a new record in the database>
+<printall> : <Print all records in the database>
+<find> : <Find record(s) with a specified account #>
+<delete> : <Delete existing record(s) from the database using the account # as a key>
+<quit> : <Quit the program>
+-------------------------------------
+type the corresponding option and hit the enter
+quit
+1 Records
+Account #: 1000
+Name: Ravi Narayan
+Address: 1680 East-West Rd.#
+
+have been saved into save.txt
+]0;yongu200@uhx02:~/project1uhx02:/home/y/yongu200/project1% ./project1 debugmode
+Command-line argument error
+]0;yongu200@uhx02:~/project1uhx02:/home/y/yongu200/project1% ./project1 debug 123
+Command-line argument error
+]0;yongu200@uhx02:~/project1uhx02:/home/y/yongu200/project1% ./project1 debug
+This is debug mode
+<User-Interface>
+This is debug mode menu_option
+
+<Choose a menu option>
+-------------------------------------
+<add> : <Add a new record in the database>
+<printall> : <Print all records in the database>
+<find> : <Find record(s) with a specified account #>
+<delete> : <Delete existing record(s) from the database using the account # as a key>
+<quit> : <Quit the program>
+-------------------------------------
+type the corresponding option and hit the enter
+quit
+Quit Selected
+This is debugmode writefile function
+0 RecordsThis is debugmode printall function
+The record is emptyhave been saved into save.txt
+This is debugmode cleanup function
+]0;yongu200@uhx02:~/project1uhx02:/home/y/yongu200/project1% exit
+exit
+
+Script done on Fri 30 Oct 2020 12:24:29 PM HST
